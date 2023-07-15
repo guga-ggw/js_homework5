@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container{
+    transition: 2s ease;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#container h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-shadow: 12px 4px 15px rgba(0, 255, 255, 0.384);
+}
+
+button{
+    position: absolute;
+    transform: translateY(200px);
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 14px 20px 1px rgba(0, 0, 0, 0.425);
+    cursor: pointer;
+}
